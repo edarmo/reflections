@@ -6,16 +6,22 @@ How is the staging area different from the working directory and the repository?
 
 	The working directory holds untracked files, while the staging area holds files awaiting commit to repository. The value of the staging area is in clearly showing what new or modified files are to be added to repository, any of which may be changed or removed before commit.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+	Only add to the staging area the files involved with the one logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When exploring a different ways of solving an issue; each way could be in its own branch.
 
 How do the diagrams help you visualize the branch structure?
 
+	They show the path and commits of each branch, and where each branch off of the master occurs.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+	The 2 (or more) branches become the one checked out. Represented this way because there remain 2 paths of commits, both of which are reachable.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
