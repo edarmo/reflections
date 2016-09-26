@@ -23,5 +23,6 @@ the diagram the way we do?
 
 	The 2 (or more) branches become the one checked out. Represented this way because there remain 2 paths of commits, both of which are reachable.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	Automatic merging is convenient when there are clearly no conflicts. However, when there may be a conflict, the developer is notified to review the code and make the final changes to resolve the conflict.
