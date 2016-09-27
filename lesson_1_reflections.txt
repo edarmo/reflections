@@ -1,0 +1,12 @@
+How can you use the commands git log and git diff to view the history of files?
+
+	git log shows the most recent commits and description of changes.
+	git diff shows changes between 2 specified files.
+
+How might using version control make you more confident to make changes that could break something?
+
+	A fix that I am not sure of can be tried. If it breaks something, I could revert back to the prior version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Creating more ambitious projects, using version control.
