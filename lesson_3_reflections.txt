@@ -22,4 +22,4 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Working on a new feature, or an experimental approach to an issue. Problems in the separate branch do not affect the functioning of the master.
